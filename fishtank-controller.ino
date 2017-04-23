@@ -1,11 +1,11 @@
 #include <DS3232RTC.h>
-#include <Time.h>
+#include <TimeLib.h>
 #include <Wire.h>
 
-//set dosing ammounts:
-float carbo = 5; //5 ml easycarbo
-float micro = 5; //4 ml profito, 1,5 ml ferro --> decreased to 5
-float macro = 5; //3ml DIY PO4, 5 ml DIY NO3+K --> decreased to 5
+//set dosing ammounts: //decreased all to 2
+float carbo = 2; //5 ml easycarbo
+float micro = 2; //4 ml profito, 1,5 ml ferro --> decreased to 5
+float macro = 2; //3ml DIY PO4, 5 ml DIY NO3+K --> decreased to 5
 
 //set dosing time:
 int dosingTime[] = {15,15}; //hour and minute: {0-23, 0-59}
